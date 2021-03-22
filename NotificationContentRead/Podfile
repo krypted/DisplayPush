@@ -1,0 +1,10 @@
+platform :ios, '13.0'
+target 'NotificationContentRead' do
+  use_frameworks!
+  pod 'OneSignal'
+end
+
+target 'NotificationServiceExtension' do
+  use_frameworks!
+  pod 'OneSignal'
+end
